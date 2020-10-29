@@ -1,0 +1,6 @@
+rabbitmq:
+  host: 192.168.99.100 #ip donde está la imagen docker rabbitmq corriendo
+  port: 5672 #coinciden con las properties del docker-compose.yml del proyecto
+  user: admin #coinciden con las properties del docker-compose.yml del proyecto
+  password: admin #coinciden con las properties del docker-compose.yml del proyecto
+  virtualhost: / #coinciden con las properties del docker-compose.yml del proyecto
